@@ -1,0 +1,1 @@
+javascript:(function(){if($("#playback").css('visibility')%20==%20'hidden'){API.chatLog('Showing%20video');$("#playback").css('visibility','visible');}else{API.chatLog('Hiding%20video');$("#playback").css('visibility','hidden');}}());

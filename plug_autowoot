@@ -1,0 +1,1 @@
+javascript:(function(){ API.chatLog("Setting up autowoot"); $("#woot").click(); API.on(API.DJ_ADVANCE, function() { setTimeout(function() {$("#woot").click();}, 10000); }); }());

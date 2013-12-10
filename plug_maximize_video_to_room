@@ -1,0 +1,1 @@
+javascript:(function(){$("#playback-container").css({left: 0, top: ($("#header").height() - 12) + 'px', position: 'fixed', width: $("#room").width() + 'px', height: ($("#room").height() + 12) + 'px'}); $("#audience").hide(); $("#dj-booth").hide(); API.chatLog('Maximizing video. Reload page to reset!');}());

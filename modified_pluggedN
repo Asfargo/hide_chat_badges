@@ -1,0 +1,1 @@
+javascript: (function () {$.getScript('http://audaxion.github.io/pluggedN/dat.gui.js', function(){$.getScript('http://audaxion.github.io/pluggedN/bookmarklet.js');});}());

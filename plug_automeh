@@ -1,0 +1,1 @@
+javascript:(function(){ API.chatLog("Setting up automeh"); $("#meh").click(); API.on(API.DJ_ADVANCE, function() { setTimeout(function() {$("#meh").click();}, 10000); }); }());

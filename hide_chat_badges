@@ -1,0 +1,1 @@
+javascript: (function () {$("#chat .badge-box").hide(); $("#chat .msg").css("padding-left", "5px"); API.on(API.CHAT, function () {$("#chat .badge-box").hide(); $("#chat .msg").css("padding-left", "5px"); });}());
